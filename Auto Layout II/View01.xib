@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLf-Nb-c4m">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLf-Nb-c4m" userLabel="Red">
                     <rect key="frame" x="50" y="70" width="50" height="150"/>
                     <color key="backgroundColor" red="1" green="0.1210804298" blue="0.17857948139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
@@ -24,11 +24,29 @@
                         <constraint firstAttribute="width" constant="50" id="iLA-Mc-UAR"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="46P-4z-E7b" userLabel="Green">
+                    <rect key="frame" x="0.0" y="220" width="375" height="247"/>
+                    <color key="backgroundColor" red="0.1240243005" green="1" blue="0.14971936450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DvC-vy-QhR" userLabel="Blue">
+                    <rect key="frame" x="157.5" y="303.5" width="60" height="60"/>
+                    <color key="backgroundColor" red="0.2121530697" green="0.39077813430000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="DvC-vy-QhR" secondAttribute="height" multiplier="1:1" id="Cwo-sY-iJW"/>
+                        <constraint firstAttribute="width" constant="60" id="c01-hB-TXY"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="DvC-vy-QhR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0OO-ZO-aHX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="46P-4z-E7b" secondAttribute="trailing" id="AUk-aY-nt7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="46P-4z-E7b" secondAttribute="bottom" constant="200" id="XCI-1o-OaA"/>
+                <constraint firstItem="46P-4z-E7b" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="200" id="XOp-JC-EKU"/>
                 <constraint firstItem="bLf-Nb-c4m" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="50" id="eWp-Pp-ZC9"/>
                 <constraint firstItem="bLf-Nb-c4m" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="50" id="hsY-DH-6p1"/>
+                <constraint firstItem="DvC-vy-QhR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pLM-W0-ahs"/>
+                <constraint firstItem="46P-4z-E7b" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="wwm-Qu-JMn"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>
