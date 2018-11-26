@@ -13,6 +13,9 @@
 		EB03293A21AC6ECA002FA159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB03293921AC6ECA002FA159 /* Assets.xcassets */; };
 		EB03293D21AC6ECA002FA159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB03293B21AC6ECA002FA159 /* LaunchScreen.storyboard */; };
 		EB03294521AC7218002FA159 /* View01.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB03294421AC7218002FA159 /* View01.xib */; };
+		EB03294721AC8D6C002FA159 /* View02.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB03294621AC8D6C002FA159 /* View02.xib */; };
+		EB03294921AC9440002FA159 /* View03.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB03294821AC9440002FA159 /* View03.xib */; };
+		EB03294B21AC9626002FA159 /* View04.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB03294A21AC9625002FA159 /* View04.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EB03293C21AC6ECA002FA159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB03293E21AC6ECA002FA159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB03294421AC7218002FA159 /* View01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View01.xib; sourceTree = "<group>"; };
+		EB03294621AC8D6C002FA159 /* View02.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View02.xib; sourceTree = "<group>"; };
+		EB03294821AC9440002FA159 /* View03.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View03.xib; sourceTree = "<group>"; };
+		EB03294A21AC9625002FA159 /* View04.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View04.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				EB03293421AC6EC6002FA159 /* ViewController.swift */,
 				EB03293621AC6EC6002FA159 /* Main.storyboard */,
 				EB03294421AC7218002FA159 /* View01.xib */,
+				EB03294621AC8D6C002FA159 /* View02.xib */,
+				EB03294821AC9440002FA159 /* View03.xib */,
+				EB03294A21AC9625002FA159 /* View04.xib */,
 				EB03293921AC6ECA002FA159 /* Assets.xcassets */,
 				EB03293B21AC6ECA002FA159 /* LaunchScreen.storyboard */,
 				EB03293E21AC6ECA002FA159 /* Info.plist */,
@@ -125,8 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB03294B21AC9626002FA159 /* View04.xib in Resources */,
 				EB03293D21AC6ECA002FA159 /* LaunchScreen.storyboard in Resources */,
+				EB03294921AC9440002FA159 /* View03.xib in Resources */,
 				EB03293A21AC6ECA002FA159 /* Assets.xcassets in Resources */,
+				EB03294721AC8D6C002FA159 /* View02.xib in Resources */,
 				EB03293821AC6EC6002FA159 /* Main.storyboard in Resources */,
 				EB03294521AC7218002FA159 /* View01.xib in Resources */,
 			);
